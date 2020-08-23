@@ -1,0 +1,101 @@
+html,body{color:#747f8c;background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;height: 100%;}
+body.signin .header,body.signup .header,body.signout .header,body.findpass .header,body.signin .uc-header,body.signup .uc-header,body.signout .uc-header,body.findpass .uc-header,body.signin .site-search,body.signup .site-search,body.signout .site-search,body.findpass .site-search{display:none;}
+body.signin,body.signup,body.signout,body.findpass{padding-top:10px;} 
+.sign-bg { position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;}
+html a{text-decoration: none;}
+#particles-js{ top: 0;left: 0;bottom: 0;right: 0;z-index: 0;position: fixed; background: #2472B3;}
+.login #login {background:#fff;width: 360px;padding:25px 10px;border-radius:1px;box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);position: absolute;top: 50%;left: 50%;    -webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.login form .input, .login input[type=text]{margin-top: 5px;margin-bottom: 10px;border-radius: 4px;}
+.login h1{padding:15px 0;}
+.login h1 a{width:100%;margin:0 auto;}   
+.updated, .login .message , .login #login_error{background:#fff;border: none;text-align: center;box-shadow:none;color: #45B6F7;} 
+.login #login_error{color:#fb0202 !important;}
+.login form {box-shadow:none;border: none;padding: 10px 20px 15px;margin-top: 10px;}   
+#loginform, #registerform, #lostpasswordform{background:transparent;border:none;}  
+.button-primary,.submit .button-primary,#login form .submit input {width: 100%;height: 40px;font-size:13px;color:#fff;border:none;background:#45B6F7;cursor:pointer;border-radius: 4px;text-shadow:none;box-shadow:none;} 
+p#nav{float:left;margin: 0 !important;}
+p#backtoblog{float:right;margin: 0;}
+.login label,p#nav a,p#backtoblog{color:#747f8c}
+
+#login form .forgetmenot{margin-bottom:5px;}
+
+body.signin .footer,body.findpass .footer{ font-size:13px;position:absolute;left:0; bottom:0;padding:0px 20px; line-height:25px; color:#FFF; text-shadow:1px 1px 0px #000; }
+body.signin .footer a,body.findpass .footer a { text-decoration:underline; color:#FFF; }
+
+
+/** QapTcha CSS **/
+.QapTcha {padding:0 10px 10px 0;margin-top:10px;}
+.QapTcha .clr{clear:both}
+.QapTcha .bgSlider {width:202px;height:22px;background:transparent url('../img/sprites.png') no-repeat 0 -22px;float:left;}
+.QapTcha .Slider {width:21px;height:21px;background:transparent url('../img/sprites.png') no-repeat 0 0;margin: 0 0 0 5px;cursor:e-resize;}
+.QapTcha .Icons {display: none;}
+.QapTcha .TxtStatus {float:left;width:202px;margin:-2px 0 0 5px;padding-left:8px;white-space:nowrap;}
+.QapTcha .dropSuccess {color:#568E2F}
+.QapTcha .dropError {color:#ff0000}
+
+.login-logo{text-align: center;font-size: 15px;line-height: 1;margin-bottom: 20px;border-radius: 4px;}
+.foot-copyright {position:absolute;bottom: -38px;left: 0;color: #fff;text-align: center;width: 100%;padding: 10px 0;text-shadow: 1px 1px 1px #000;}
+.foot-copyright a{margin: 0 10px;color: #fff;}
+
+
+#signin,#signin a{font-size:12px !important;line-height:1.5;}
+#signin{ position: fixed;display: flex;align-items: center;justify-content: center;z-index: 10;width: 100%; height: 100%;top: 0;left: 0;}
+#signin .part{position: relative;width: 100%;background-color: #fff; padding: 35px 25px 25px 25px;box-sizing: border-box;z-index: 999;width: 50%;max-width: 360px; min-width: 320px;}
+#signin form{margin-bottom:0}
+#signin form .login-note{margin:0;text-align:center;}
+#signin form h3{font-size:20px;margin-bottom:20px;text-align:center;}
+#signin form h3 p{font-size:12px;color:#999;margin:0 0 0 10px;display:inline-block}
+#signin form .status .error{color:#ea4c89}
+#signin form .status .success{color:#00c3b6}
+#signin form p{margin-bottom:15px;position:relative}
+#signin form p.status {margin: 5px auto;position: relative;border: 1px dashed #ffbaba;text-align: left;font-size: 12px; padding: 5px 10px;color: #ff6969;display: none;}
+#signin form #captcha_inline label.error{right: auto;left: 0;top:40px;}
+#signin form #captcha_inline{height:40px;}
+
+#captcha_inline #um_captcha{width: 140px;margin-right: 15px;padding-right: 10px;}
+#captcha_inline img{float:right;cursor:pointer;}
+#captcha_inline input.submit{float: right !important;width: 100px;}
+#signin form label.error{color:#FFF;background-color:#7656E8;padding: 2px 4px;position: absolute;z-index: 5;right: 10px; top: 9px;}
+#signin form label.icon{position: absolute;left: 10px;top: 5px;color: #999;font-size: 20px;}
+#signin form label.icon i{width:20px;text-align:center}
+#signin form input{border:1px solid #ddd;padding:10px;width:100%;box-sizing:border-box;border-radius:4px;}
+#signin ::-webkit-input-placeholder{color:#999}
+#signin form input:focus{border:1px solid #45B6F7;outline: 0;}
+#signin input:-moz-placeholder{color:#999}
+#signin input.input-control{padding-left:35px}
+#signin form .submit{cursor:pointer;background-color:#45B6F7;color:#FFF;border:0 none;font-size:14px;background-image: none;}
+#signin form .submit:hover{background-color:#45B6F7;opacity: 1;}
+#signin form .submit:focus{border:0 none}
+#signin form .safe{color:#999;margin-top:20px}
+#signin form .rememberme{width:inherit;margin-right:3px}
+#signin form .lost{float:right}
+#signin form .close{position:absolute;right:0;top:0;width:50px;height:50px;border-radius:0 0 0 35px;text-align:center;line-height:50px;font-size:16px;}
+#signin form .close i{-webkit-transition:all ease-out .3s;-moz-transition:all ease-out .3s;-o-transition:all ease-out .3s;transition:all ease-out .3s}
+#signin form .close:hover i{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+#signin .other-sign{border-top:1px solid rgba(0,0,0,.1);/*margin:20px -50px auto -50px;padding:0 50px*/}
+
+.other-sign p{margin:10px auto 15px auto;font-size:14px;text-align:center;}
+.other-sign a,.local-account a{display:inline-block;padding: 12px 13px;border-radius: 100%;text-decoration: none !important;border:0;margin: 0 5px;width: 42px;height: 42px;}
+.other-sign a:hover,.local-account a:hover{color:#fff;}
+.local-account a i{margin-right:5px}
+.other-sign a i{font-size:16px}
+.other-sign .qqlogin{background-color:#4a9cf8;color:#FFF;/* float:left; */}
+.other-sign .weibologin {background-color: #e14d4c;color: #FFF;/* float:right; */}
+.other-sign div{/* width:50%; */text-align:center;/* float:left; */}
+
+.overlay {background: #000;opacity: .8;filter: alpha(opacity=80);position: fixed;width: 100%;height: 100%;left: 0;top: 0;z-index: 9998;}
+.nav-wrap #login-reg{float: right;margin-left: 5px;margin-right:5px;font-size: 14px;padding: 23px 0;height: 80px;}
+.nav-wrap #login-reg span{display: block;background-color: #757575;background-color: rgba(0,0,0,.2);color:#eee;color: rgba(255,255,255,.8);height: 34px;padding: 0 15px;line-height: 34px;overflow: hidden;display:inline-block;cursor:pointer;float:left;}
+.nav-wrap #login-reg span:hover{color:#aaa;}
+#user-login{border-radius: 4px 0 0 4px;}
+#user-login.only-login{border-radius:4px;}
+#user-reg{border-radius: 0 4px 4px 0;margin-left:1px}
+.signup-note{text-align:center;margin:10px 0 0 0;}
+
+
+.findpass .container .content-wrap {position: fixed;z-index: 9999;top: 20%;left: 50%;width: 100%;max-width: 380px; margin-left: -190px;border-radius: 0;}
+.findpass .container .content-wrap .content{padding: 30px 20px 0px 20px;}
+.findpass .steps{color:#555;	margin-bottom:30px;	text-align: center;	font-size:20px;}
+.findpass .resetpass{text-align: center;}
+.findpass .resetpass form{margin:0;	width: 100%;padding:0;}
+.findpass form h3{font-size: 14px;margin: 0 0 10px;}
